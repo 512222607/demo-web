@@ -1,6 +1,6 @@
-1¡¢ÅäÖÃhost
+1ï¼šé…ç½®hosts
 132.246.27.57 sso.aeptest.ctwing.cn
 127.0.0.1 sso.demo.com
 
-2¡¢Æô¶¯demo-web
-·ÃÎÊ£ºhttp://sso.demo.com:8080/demo-web/index.jsp
+2ï¼šå¯åŠ¨å®¢æˆ·ç«¯åè®¿é—®
+http://sso.demo.com:8080/demo-web/index.jsp
