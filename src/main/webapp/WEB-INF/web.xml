@@ -16,7 +16,7 @@
     <filter-class>org.jasig.cas.client.session.SingleSignOutFilter</filter-class>
     <init-param>
       <param-name>casServerUrlPrefix</param-name>
-      <param-value>https://sso.aeptest.ctwing.cn/cas</param-value>
+      <param-value>http://sso.aeptest.ctwing.cn:8081/cas</param-value>
     </init-param>
   </filter>
   <filter-mapping>
@@ -31,11 +31,11 @@
     <filter-class>org.jasig.cas.client.authentication.AuthenticationFilter</filter-class>
     <init-param>
       <param-name>casServerLoginUrl</param-name>
-      <param-value>https://sso.aeptest.ctwing.cn/cas/login</param-value>
+      <param-value>http://sso.aeptest.ctwing.cn:8081/cas/login</param-value>
     </init-param>
     <init-param>
       <param-name>serverName</param-name>
-      <param-value>http://localhost:8080</param-value>
+      <param-value>http://sso.demo.com:8080</param-value>
     </init-param>
   </filter>
   <filter-mapping>
@@ -49,11 +49,11 @@
       org.jasig.cas.client.validation.Cas20ProxyReceivingTicketValidationFilter</filter-class>
     <init-param>
       <param-name>casServerUrlPrefix</param-name>
-      <param-value>https://sso.aeptest.ctwing.cn/cas</param-value>
+      <param-value>http://sso.aeptest.ctwing.cn:8081/cas</param-value>
     </init-param>
     <init-param>
       <param-name>serverName</param-name>
-      <param-value>http://localhost:8080</param-value>
+      <param-value>http://sso.demo.com:8080</param-value>
     </init-param>
   </filter>
   <filter-mapping>
