@@ -1,5 +1,5 @@
 1：配置hosts
-#配置cas-server所使用的地址
+#配置cas-server所使用的地址及域名
 xxx.xxx.xxx.xxx sso.aeptest.ctwing.cn
 127.0.0.1 sso.demo.com
 
